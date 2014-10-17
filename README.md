@@ -1,4 +1,6 @@
-huicpc0215.github.io
+huicpc0215
 ====================
 
-My Personal Blog
+This is my personal blog.
+
+update weekly( sunday )!
