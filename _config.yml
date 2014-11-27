@@ -1,11 +1,12 @@
-title:            Site Title
-description:      Describe your website here.
+title:            huicpc0x2f's blog
+description:      My personal blog with the help of github
 disqus_shortname: hpstrtheme
 reading_time:     true
-words_per_minute: 200
+words_per_minute: 100
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 url:
+#url:              huicpc0215.uni.me
 
 # Owner/author information
 owner:
@@ -16,7 +17,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         github.com/huicpc0215
   stackexchange:  
   linkedin:       
   instagram:      
