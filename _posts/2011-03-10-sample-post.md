@@ -58,7 +58,7 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 ## Tables
 
 | Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
+|---------|---------|---------|
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
 |----
