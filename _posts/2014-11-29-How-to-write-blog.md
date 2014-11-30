@@ -112,5 +112,5 @@ _single underscores_
 
 __double underscores__
 
-Use the 'printf()' function
+Use the `printf()` function
 
