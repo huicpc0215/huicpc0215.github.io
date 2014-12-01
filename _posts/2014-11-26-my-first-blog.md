@@ -1,5 +1,10 @@
 ---
 title: my first blog
+layout: post
+description: my first blog
+image:
+    feature: abstract-10.jpg
+    credit: dargadgetz
 ---
 # 欢迎使用马克飞象
 
@@ -22,6 +27,8 @@ title: my first blog
 正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为**粗体**或者*斜体*，下面列举了几个高级功能，更多语法请按`Ctrl + /`查看帮助。 
 
 #### 代码块
+
+{% highlight python %}
 ``` python
 @requires_authorization
 def somefunc(param1='', param2=0):
@@ -34,16 +41,66 @@ class SomeClass:
 >>> message = '''interpreter
 ... prompt'''
 ```
+{% endhighlight %}
 
 #### LaTex 公式
 $$  x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
+second latex test
+
+$$
+\begin{align}
+\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
+\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
+\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
+\end{align}
+$$
+
+~~~ python
+def func()
+    pass
+~~~
+
+
+1. This is a list item
+
+    > with a block quote
+
+# And a header
+
+2. Followd by another item
+
+
+~~~~~~
+This is also a code block.
+~~~
+Ending lines must have at least as
+many tildes as the starting line.
+~~~~~~~~~~~~
+
 #### 表格
+
 | Item      |    Value | Qty  |
 | :-------- | --------:| :--: |
 | Computer  | 1600 USD |  5   |
 | Phone     |   12 USD |  12  |
 | Pipe      |    1 USD | 234  |
+
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+{: rules="groups"}
+
+This is a text with a footnote[^1].
+
+[^1]: And here is the [definition](http://www.baidu.com 'bai du').
 
 ### 印象笔记相关
 
@@ -70,19 +127,19 @@ $$  x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 ### 快捷键
 
 帮助    `Ctrl + /`
-同步文档    `Ctrl + S`
-创建文档    `Ctrl + Alt + N`
-最大化编辑器    `Ctrl + Enter`
-文档管理    `Ctrl + O`
-系统菜单    `Ctrl + M`
+同步文档    `Ctrl + S`  
+创建文档    `Ctrl + Alt + N`  
+最大化编辑器    `Ctrl + Enter`  
+文档管理    `Ctrl + O`  
+系统菜单    `Ctrl + M`  
 
-整行移动    `Alt + 上/下箭头`
-删除整行    `Ctrl + D`
+整行移动    `Alt + 上/下箭头`  
+删除整行    `Ctrl + D`  
 
-加粗    `Ctrl + B`
-插入图片    `Ctrl + G`
-插入链接    `Ctrl + L`
-提升标题    `Ctrl + H`
+加粗    `Ctrl + B`  
+插入图片    `Ctrl + G`  
+插入链接    `Ctrl + L`  
+提升标题    `Ctrl + H`  
 
 ### 关于收费
 
