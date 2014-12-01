@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Add Latex Support Using Mathjax on Octopress"
+modified:
+categories: 
+description: add latex support 
+tags: [latex Mathjax Octopress]
+image:
+  feature: abstract-5.jpg
+  credit: dargadgetz
+  creditlink:
+share: true
+date: 2014-12-01T21:14:24+08:00
+---
+
+
+Just paste follow this [instructions](http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/ )
+
+1. edit `_config.yml`
+
+~~~ yml
+> +markdown=kramdown
+~~~
+
+2. edit `Gemfile`
+
+~~~ yml
+> +gem ‘kramdown’
+~~~
+
+3. add mathjax to `_include/head.html`
+
+~~~ html
+<!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+~~~
+
+all done!
