@@ -49,3 +49,9 @@ MathJax.Hub.Config({
 ~~~
 
 all done!
+
+Let’s have a test:
+
+$$
+E=MC^2
+$$
