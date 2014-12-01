@@ -18,16 +18,15 @@ Just paste follow this [instructions](http://www.idryman.org/blog/2012/03/10/wri
 
 1. edit `_config.yml`
 
-~~~ yml
+~~~ html
 > +markdown=kramdown
 ~~~
 
 2. edit `Gemfile`
 
-~~~ yml
+~~~ html
 > +gem ‘kramdown’
 ~~~
-
 3. add mathjax to `_include/head.html`
 
 ~~~ html
