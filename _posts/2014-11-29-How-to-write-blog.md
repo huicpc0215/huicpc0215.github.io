@@ -17,11 +17,13 @@ test HTML
 TEST url
 [Bird](http://images.google.com/images?num=30&q=larry+bird)
 
-TEST copy
+TEST copy  
 &copy;
 
 TEST &
+
 AT&T
+
 AT&amp;T
 
 Test head title
@@ -62,26 +64,31 @@ to the next stage
 > return shell_exec("echo $input$  ");
 
 list1 :
+
 * red
 * Green
 * Blue
 
 List2 :
+
 + red
 + green
 + blue
 
 List3 :
+
 - red
 - green
 - blue
 
 List4 :
+
 1. red
 2. green
 3. blue
 
 List5 :
+
 123. red
 1124. blue
 124124. green
@@ -112,5 +119,5 @@ _single underscores_
 
 __double underscores__
 
-Use the 'printf()' function
+Use the `printf()` function
 
