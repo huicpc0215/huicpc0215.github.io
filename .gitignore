@@ -4,3 +4,4 @@ codekit-config.json
 node_modules
 Gemfile.lock
 .sass-cache
+_config.yml
