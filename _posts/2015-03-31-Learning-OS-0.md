@@ -14,7 +14,9 @@ share:
 最近看了一下uCoreOS，是清华大学在xuetangx.com上开设的一门操作系统课程的实验，想跟着做一下，感受一下清华大学学生的厉害之处。
 顺便补补自己本科阶段没有学习过的操作系统这么久仰已久的课程。
 
-<!--more--> 
+
+<!--more-->
+
 
 #过程
 首先根据[uCoreOS-guide](https://www.gitbook.com/book/objectkuan/ucore-docs/details)上面的lab0准备，
@@ -41,3 +43,5 @@ share:
     7.  make&&makefile 集成编译命令 [ref_0](http://wiki.ubuntu.com.cn/index.php?title=%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile&variant=zh-cn) [ref_1](http://blog.csdn.net/a_ran/article/details/43937041)
     8.  dd 读写数据到文件和设备中 
 6.  qemu 硬件模拟器，模拟x86-32计算器 [ref_0](http://wenku.baidu.com/view/04c0116aa45177232f60a2eb.html)
+
+
