@@ -16,6 +16,8 @@ date: 2014-12-01T21:14:24+08:00
 
 Just follow this [instructions](http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/ )
 
+<!--more-->
+
 1.edit `_config.yml`
 {% highlight html %}
 >markdown=kramdown
