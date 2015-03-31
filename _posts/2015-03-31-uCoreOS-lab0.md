@@ -12,6 +12,8 @@ share:
 ---
 #目的
 最近看了一下uCoreOS，是清华大学在xuetangx.com上开设的一门操作系统课程的实验，想跟着做一下，感受一下清华大学学生的厉害之处。
+顺便补补自己本科阶段没有学习过的操作系统这么久仰已久的课程。
+<!--more--> 
 
 #过程
 首先根据[uCoreOS-guide](https://www.gitbook.com/book/objectkuan/ucore-docs/details)上面的lab0准备，
