@@ -18,6 +18,8 @@ Just follow this [instructions](http://www.idryman.org/blog/2012/03/10/writing-m
 
 <!--more-->
 
+---
+
 1.edit `_config.yml`
 {% highlight html %}
 >markdown=kramdown

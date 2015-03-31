@@ -1,7 +1,7 @@
 ---
 layout: post
-title: “Learning OS - 0”
-description: "Learning operation system one by one”
+title: "Learning OS - 0"
+description: "Learning operation system one by one"
 modified: 2015-03-31
 tags: [OS uCoreOS]
 image:
