@@ -14,6 +14,8 @@ image:
 
 ### Pygments Code Blocks
 
+<!--more-->
+
 To modify styling and highlight colors edit `/assets/less/pygments.less` and compile `main.less` with your favorite preprocessor. Or edit `main.css` if that's your thing, the classes you want to modify all begin with `.highlight`.
 
 {% highlight css %}
@@ -121,9 +123,8 @@ end
 
 An example of a Gist embed below.
 
-<!--
 {% gist mmistakes/6589546 %}
 
 {% gist 8531391 %}
 
--->
+
