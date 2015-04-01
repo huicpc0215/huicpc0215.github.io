@@ -10,7 +10,9 @@ image:
 share:
   published: true
 ---
+
 #目的
+
 最近看了一下uCoreOS，是清华大学在xuetangx.com上开设的一门操作系统课程的实验，想跟着做一下，感受一下清华大学学生的厉害之处。
 顺便补补自己本科阶段没有学习过的操作系统这么久仰已久的课程。
 
@@ -19,6 +21,7 @@ share:
 
 
 #过程
+
 首先根据[uCoreOS-guide](https://www.gitbook.com/book/objectkuan/ucore-docs/details)上面的lab0准备，
 
 需要了解很多相关预备知识具体有以下几点（点击目标，了解更多）:
@@ -43,5 +46,30 @@ share:
     7.  make&&makefile 集成编译命令 [ref_0](http://wiki.ubuntu.com.cn/index.php?title=%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile&variant=zh-cn) [ref_1](http://blog.csdn.net/a_ran/article/details/43937041)
     8.  dd 读写数据到文件和设备中 
 6.  qemu 硬件模拟器，模拟x86-32计算器 [ref_0](http://wenku.baidu.com/view/04c0116aa45177232f60a2eb.html)
+
+
+## bash 
+
+Bourne Again SHell的缩写,是一种linux上最常见的shell之一. 通常文件后缀为.sh是可执行shell.
+
+## git
+
+git 是一种分布式版本控制系统,主要理解分支(branch),合并(merge),提交(push),更新(pull),注释(commit)
+
+## 代码阅读工具
+
+暂时值会熟悉vim的基本操作,GUI的工具还没有使用过.
+
+## 源码比较工具
+
+diff patch 在参考上说的比较详细了,认真阅读即可.
+
+## 开发编译调试
+
+gcc,只用过一些基本命令,gdb配合 -tui 调试起来非常方便. make根据makefile 的规则,一步步根据依赖关系组件整个工程.其他的工具暂时还没有用到.
+
+## qemu硬件模拟器
+
+需要使用qemu-system-x86_32代替qemu模拟器
 
 
