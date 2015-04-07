@@ -3,7 +3,7 @@ layout: post
 title: "Learning OS - 0"
 description: "Learning operation system one by one"
 modified: 2015-03-31
-tags: [OS uCoreOS]
+tags: [uCoreOS,operation system]
 image:
   feature: abstract-4.jpg
   credit: dargadgetz
