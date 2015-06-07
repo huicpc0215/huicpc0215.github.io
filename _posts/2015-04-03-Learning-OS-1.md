@@ -115,5 +115,5 @@ all:
 ~~~
 
 <figure>
-    <img src=”http://0.0.0.0:4000/image/triangular.png” alt=””>
+    <img src="/images/test.jpeg" alt="">
 </figure>
